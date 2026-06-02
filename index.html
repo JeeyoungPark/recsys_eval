@@ -441,7 +441,7 @@
 <section class="slide">
   <div class="slide-header"><span class="slide-section">01. 추천 평가가 어려운 이유</span><span class="slide-number">06</span></div>
   <div class="slide-body">
-    <h2 class="slide-title">추천 평가의 역사</h2>
+    <h2 class="slide-title">추천 평가의 짧은 역사</h2>
     <h3 class="slide-subtitle">"좋은 추천이 무엇인가" 에 대한 정의가 진화해왔습니다.</h3>
     
     <div class="timeline">
@@ -917,7 +917,7 @@
     <h2 class="slide-title">지표 간 트레이드오프</h2>
     <h3 class="slide-subtitle">학계에서는 이를 "Diversity-Accuracy Dilemma" 라고 부릅니다.</h3>
     
-    <table class="data" style="font-size:19px; margin-top:20px;">
+    <table class="data" style="font-size:17px; margin-top:14px;">
       <thead>
         <tr><th style="width:40%; text-align:center;">한쪽을 올리면</th><th style="text-align:center;">다른 쪽이 떨어지는 경향</th></tr>
       </thead>
@@ -928,9 +928,32 @@
       </tbody>
     </table>
     
-    <div class="big-statement framed" style="margin-top:32px; padding:24px;">
-      추천 평가는 <span class="accent-text">"무엇을 최대화할 것인가"</span>보다<br>
-      <span class="accent-text">"어떤 균형을 잡을 것인가"</span>에 가까운 문제입니다.
+    <p class="lead" style="margin-top:20px; text-align:center; font-size:19px;">
+      "무엇을 최대화할까" 가 아니라 <strong>"어떤 균형을 잡을까"</strong> 의 문제 — 균형은 도메인에 따라 달라집니다.
+    </p>
+    
+    <div class="card-grid cols-3" style="margin-top:14px;">
+      <div class="card">
+        <div class="card-title" style="font-size:17px;">📰 뉴스 추천</div>
+        <div class="card-desc" style="font-size:14px;">
+          <strong style="color:var(--accent-deep);">신선도</strong>가 핵심<br>
+          <span style="color:var(--text-light);">어제 본 뉴스를 또 추천하면 안 됨</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="font-size:17px;">🎵 음악 추천</div>
+        <div class="card-desc" style="font-size:14px;">
+          <strong style="color:var(--accent-deep);">다양성 + 정확도</strong> 균형<br>
+          <span style="color:var(--text-light);">취향에 맞으면서 새로운 발견도</span>
+        </div>
+      </div>
+      <div class="card accent">
+        <div class="card-title" style="font-size:17px;">🎮 게임 추천</div>
+        <div class="card-desc" style="font-size:14px;">
+          <strong style="color:var(--accent-deep);">정확도 + 커버리지</strong><br>
+          <span style="color:var(--text-light);">+ 도메인 특수성까지 고려</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
